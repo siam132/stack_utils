@@ -49,7 +49,7 @@ describe('POST /arithmatic/multiply', ()=>{
         .then(res=>{
             const body = res.body; 
             expect(body).to.contain.property('product')
-            expect(body.product).to.equal(7)
+            expect(body.product).to.equal(6)
             done()
         }).catch(err=> done(err))
     })
