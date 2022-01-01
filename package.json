@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "mocha --recursive --exit"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/siam132/stack_utils#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.6"
   }
 }

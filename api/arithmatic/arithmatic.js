@@ -28,8 +28,8 @@ router.post('/multiply', (req, res) => {
         return;
     }
     const elms = [...req.body.elm]
-    const multiple = elms.reduce((acc, val) => acc * val, 1);
-  res.status(200).send({multiple})
+    const product = elms.reduce((acc, val) => acc * val, 1);
+  res.status(200).send({product})
 })
 
 module.exports = router;
