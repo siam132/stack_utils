@@ -13,3 +13,5 @@ app.use('/arithmatic',arithmatic)
 app.use('/arrayUtils',arrayUtils)
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
+
+module.exports = app;
