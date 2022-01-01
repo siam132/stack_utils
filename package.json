@@ -1,0 +1,23 @@
+{
+  "name": "stack_utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siam132/stack_utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siam132/stack_utils/issues"
+  },
+  "homepage": "https://github.com/siam132/stack_utils#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
