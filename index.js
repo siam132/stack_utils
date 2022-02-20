@@ -8,7 +8,7 @@ const webUtils = require("./api/web_utils/web_utils");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get("/", (req, res) => res.send("<h1>Hello World!</h1>"));
+app.get("/", (req, res) => res.send("<h1>Hello World!</h1> <br> <code>Some extra text for testing</code>"));
 app.use("/arithmatic", arithmatic);
 app.use("/arrayUtils", arrayUtils);
 app.use("/webUtils", webUtils);
