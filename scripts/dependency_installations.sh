@@ -6,8 +6,7 @@ source ~/.bashrc
 nvm install node
 # install pm2
 set -e
-yum update -y
-pm2 update
+npm install pm2@latest -g
 # Change directory to source code and install npm pacakges
 cd /home/ec2-user/stack_utils
 npm install
