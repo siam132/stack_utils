@@ -10,3 +10,5 @@ npm install pm2@latest -g
 # Change directory to source code and install npm pacakges
 cd /home/ec2-user/stack_utils
 npm install
+
+pm2 start index.js
