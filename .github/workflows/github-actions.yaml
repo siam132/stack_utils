@@ -45,4 +45,5 @@ jobs:
             --application-name node-demo-app \
             --deployment-group-name NodeAppDeployment \
             --deployment-config-name CodeDeployDefault.OneAtATime \
+            --file-exists-behavior "OVERWRITE" \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
